@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "NodeNext", // ✅ Fix: Ensures compatibility with Node ESM
+    "moduleResolution": "NodeNext", // ✅ Fix: Allows default module resolution
+
+    "strict": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "exclude": ["dist/"]
+}

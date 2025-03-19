@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "prisma": {
+    "schema": "./db/prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.5.0",
+    "@types/bun": "latest",
+    "prisma": "^6.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^11.0.2",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "@types/pg": "^8.11.11",
+    "fastify": "^5.2.1",
+    "pg": "^8.14.1",
+    "redis": "^4.7.0",
+    "superjson": "^2.2.2",
+    "zod": "^3.24.2"
+  }
+}

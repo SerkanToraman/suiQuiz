@@ -1,0 +1,7 @@
+{
+  "name": "sui-quiz",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
